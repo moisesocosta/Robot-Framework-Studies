@@ -1,56 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-12-19T09:35:06.408493" rpa="false" schemaversion="5">
-<suite id="s1" name="Estrutura" source="C:\Users\mosol\OneDrive\Documentos\GitHub\Robot-Framework-Studies\Robot-Framework\Aula03\estrutura.robot">
-<test id="s1-t1" name="Cenário 1: Teste de abrir site google" line="20">
-<kw name="Abrir site google">
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-12-19T14:22:11.723715" rpa="false" schemaversion="5">
+<suite id="s1" name="Form" source="C:\Users\mosol\OneDrive\Documentos\GitHub\Robot-Framework-Studies\Robot-Framework\Aula03\form.robot">
+<test id="s1-t1" name="Cenário 1: Preencher formulário" line="31">
+<kw name="Abrir navegador e acessar o site">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-12-19T09:35:07.446873" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com.br/'.</msg>
-<arg>https://www.google.com.br/</arg>
+<msg time="2024-12-19T14:22:19.010609" level="INFO">Opening browser 'chrome' to base url 'https://itera-qa.azurewebsites.net/home/automation'.</msg>
+<msg time="2024-12-19T14:22:46.123563" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-12-19T14:22:46.124418" level="FAIL">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=131.0.6778.204)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6D481FB05+28789]
+	(No symbol) [0x00007FF6D47886E0]
+	(No symbol) [0x00007FF6D462592A]
+	(No symbol) [0x00007FF6D4623028]
+	(No symbol) [0x00007FF6D4613BF9]
+	(No symbol) [0x00007FF6D461594F]
+	(No symbol) [0x00007FF6D4613EBF]
+	(No symbol) [0x00007FF6D461371B]
+	(No symbol) [0x00007FF6D461365A]
+	(No symbol) [0x00007FF6D4611274]
+	(No symbol) [0x00007FF6D4611B3C]
+	(No symbol) [0x00007FF6D46289FA]
+	(No symbol) [0x00007FF6D46C045E]
+	(No symbol) [0x00007FF6D469F43A]
+	(No symbol) [0x00007FF6D46BF654]
+	(No symbol) [0x00007FF6D469F1E3]
+	(No symbol) [0x00007FF6D466A938]
+	(No symbol) [0x00007FF6D466BAA1]
+	GetHandleVerifier [0x00007FF6D4B5933D+3410093]
+	GetHandleVerifier [0x00007FF6D4B6E7DD+3497293]
+	GetHandleVerifier [0x00007FF6D4B62A73+3448803]
+	GetHandleVerifier [0x00007FF6D48E7BBB+848171]
+	(No symbol) [0x00007FF6D4793C3F]
+	(No symbol) [0x00007FF6D478F6E4]
+	(No symbol) [0x00007FF6D478F87D]
+	(No symbol) [0x00007FF6D477ED49]
+	BaseThreadInitThunk [0x00007FFDAF01E8D7+23]
+	RtlUserThreadStart [0x00007FFDB057FBCC+44]
+</msg>
+<arg>https://itera-qa.azurewebsites.net/home/automation</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-12-19T09:35:07.446345" elapsed="6.073176"/>
+<status status="FAIL" start="2024-12-19T14:22:19.009841" elapsed="27.430786">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=131.0.6778.204)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6D481FB05+28789]
+	(No symbol) [0x00007FF6D47886E0]
+	(No symbol) [0x00007FF6D462592A]
+	(No symbol) [0x00007FF6D4623028]
+	(No symbol) [0x00007FF6D4613BF9]
+	(No symbol) [0x00007FF6D461594F]
+	(No symbol) [0x00007FF6D4613EBF]
+	(No symbol) [0x00007FF6D461371B]
+	(No symbol) [0x00007FF6D461365A]
+	(No symbol) [0x00007FF6D4611274]
+	(No symbol) [0x00007FF6D4611B3C]
+	(No symbol) [0x00007FF6D46289FA]
+	(No symbol) [0x00007FF6D46C045E]
+	(No symbol) [0x00007FF6D469F43A]
+	(No symbol) [0x00007FF6D46BF654]
+	(No symbol) [0x00007FF6D469F1E3]
+	(No symbol) [0x00007FF6D466A938]
+	(No symbol) [0x00007FF6D466BAA1]
+	GetHandleVerifier [0x00007FF6D4B5933D+3410093]
+	GetHandleVerifier [0x00007FF6D4B6E7DD+3497293]
+	GetHandleVerifier [0x00007FF6D4B62A73+3448803]
+	GetHandleVerifier [0x00007FF6D48E7BBB+848171]
+	(No symbol) [0x00007FF6D4793C3F]
+	(No symbol) [0x00007FF6D478F6E4]
+	(No symbol) [0x00007FF6D478F87D]
+	(No symbol) [0x00007FF6D477ED49]
+	BaseThreadInitThunk [0x00007FFDAF01E8D7+23]
+	RtlUserThreadStart [0x00007FFDB057FBCC+44]
+</status>
 </kw>
-<status status="PASS" start="2024-12-19T09:35:07.444671" elapsed="6.075543"/>
+<status status="FAIL" start="2024-12-19T14:22:19.008091" elapsed="27.433469">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=131.0.6778.204)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6D481FB05+28789]
+	(No symbol) [0x00007FF6D47886E0]
+	(No symbol) [0x00007FF6D462592A]
+	(No symbol) [0x00007FF6D4623028]
+	(No symbol) [0x00007FF6D4613BF9]
+	(No symbol) [0x00007FF6D461594F]
+	(No symbol) [0x00007FF6D4613EBF]
+	(No symbol) [0x00007FF6D461371B]
+	(No symbol) [0x00007FF6D461365A]
+	(No symbol) [0x00007FF6D4611274]
+	(No symbol) [0x00007FF6D4611B3C]
+	(No symbol) [0x00007FF6D46289FA]
+	(No symbol) [0x00007FF6D46C045E]
+	(No symbol) [0x00007FF6D469F43A]
+	(No symbol) [0x00007FF6D46BF654]
+	(No symbol) [0x00007FF6D469F1E3]
+	(No symbol) [0x00007FF6D466A938]
+	(No symbol) [0x00007FF6D466BAA1]
+	GetHandleVerifier [0x00007FF6D4B5933D+3410093]
+	GetHandleVerifier [0x00007FF6D4B6E7DD+3497293]
+	GetHandleVerifier [0x00007FF6D4B62A73+3448803]
+	GetHandleVerifier [0x00007FF6D48E7BBB+848171]
+	(No symbol) [0x00007FF6D4793C3F]
+	(No symbol) [0x00007FF6D478F6E4]
+	(No symbol) [0x00007FF6D478F87D]
+	(No symbol) [0x00007FF6D477ED49]
+	BaseThreadInitThunk [0x00007FFDAF01E8D7+23]
+	RtlUserThreadStart [0x00007FFDB057FBCC+44]
+</status>
+</kw>
+<kw name="Preencher campos">
+<status status="NOT RUN" start="2024-12-19T14:22:46.452141" elapsed="0.000197"/>
+</kw>
+<kw name="Clicar em submit">
+<status status="NOT RUN" start="2024-12-19T14:22:46.453247" elapsed="0.000104"/>
 </kw>
 <kw name="Fechar navegador">
-<kw name="Close Browser" owner="SeleniumLibrary">
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-12-19T09:35:13.522562" elapsed="2.856381"/>
+<status status="NOT RUN" start="2024-12-19T14:22:46.454109" elapsed="0.000140"/>
 </kw>
-<status status="PASS" start="2024-12-19T09:35:13.521402" elapsed="2.858018"/>
-</kw>
-<status status="PASS" start="2024-12-19T09:35:07.442959" elapsed="8.937434"/>
+<status status="FAIL" start="2024-12-19T14:22:19.005979" elapsed="27.449239">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=131.0.6778.204)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6D481FB05+28789]
+	(No symbol) [0x00007FF6D47886E0]
+	(No symbol) [0x00007FF6D462592A]
+	(No symbol) [0x00007FF6D4623028]
+	(No symbol) [0x00007FF6D4613BF9]
+	(No symbol) [0x00007FF6D461594F]
+	(No symbol) [0x00007FF6D4613EBF]
+	(No symbol) [0x00007FF6D461371B]
+	(No symbol) [0x00007FF6D461365A]
+	(No symbol) [0x00007FF6D4611274]
+	(No symbol) [0x00007FF6D4611B3C]
+	(No symbol) [0x00007FF6D46289FA]
+	(No symbol) [0x00007FF6D46C045E]
+	(No symbol) [0x00007FF6D469F43A]
+	(No symbol) [0x00007FF6D46BF654]
+	(No symbol) [0x00007FF6D469F1E3]
+	(No symbol) [0x00007FF6D466A938]
+	(No symbol) [0x00007FF6D466BAA1]
+	GetHandleVerifier [0x00007FF6D4B5933D+3410093]
+	GetHandleVerifier [0x00007FF6D4B6E7DD+3497293]
+	GetHandleVerifier [0x00007FF6D4B62A73+3448803]
+	GetHandleVerifier [0x00007FF6D48E7BBB+848171]
+	(No symbol) [0x00007FF6D4793C3F]
+	(No symbol) [0x00007FF6D478F6E4]
+	(No symbol) [0x00007FF6D478F87D]
+	(No symbol) [0x00007FF6D477ED49]
+	BaseThreadInitThunk [0x00007FFDAF01E8D7+23]
+	RtlUserThreadStart [0x00007FFDB057FBCC+44]
+</status>
 </test>
-<test id="s1-t2" name="Cenário 2: Teste de abrir site globo" line="24">
-<kw name="Abrir site globo">
-<kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-12-19T09:35:16.389586" level="INFO">Opening browser 'chrome' to base url 'https://www.globo.com/'.</msg>
-<arg>https://www.globo.com/</arg>
-<arg>chrome</arg>
-<doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-12-19T09:35:16.388925" elapsed="23.254932"/>
-</kw>
-<status status="PASS" start="2024-12-19T09:35:16.387789" elapsed="23.256527"/>
-</kw>
-<kw name="Fechar navegador">
-<kw name="Close Browser" owner="SeleniumLibrary">
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-12-19T09:35:39.646349" elapsed="2.709966"/>
-</kw>
-<status status="PASS" start="2024-12-19T09:35:39.645300" elapsed="2.711366"/>
-</kw>
-<status status="PASS" start="2024-12-19T09:35:16.385805" elapsed="25.971581"/>
-</test>
-<status status="PASS" start="2024-12-19T09:35:06.412067" elapsed="35.948245"/>
+<status status="FAIL" start="2024-12-19T14:22:11.727436" elapsed="34.746773"/>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="2" fail="0" skip="0" id="s1" name="Estrutura">Estrutura</stat>
+<stat pass="0" fail="1" skip="0" id="s1" name="Form">Form</stat>
 </suite>
 </statistics>
 <errors>

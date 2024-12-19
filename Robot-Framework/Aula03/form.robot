@@ -2,12 +2,12 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${input_name}    id:name
-${input_phone}    id:phone
-${input_email}    id:email
-${input_password}    id:password
-${textarea_address}    id:textarea_address
-${button_submit}    name:submit
+${input_name}    //input[@id="name"]
+${input_phone}    //input[@id="phone"]
+${input_email}    //input[@id="email"]
+${input_password}    //input[@id="password"]
+${textarea_address}    //textarea[@id="address"]
+${button_submit}    //button[@name="submit"]
 
 
 *** Keywords ***
