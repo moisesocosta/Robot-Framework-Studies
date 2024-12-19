@@ -1,13 +1,13 @@
-** Settings **
+*** Settings ***
 Library  SeleniumLibrary
 
-** Variables **
+*** Variables ***
 
 
-** Keywords **
+*** Keywords ***
 Abrir Site
     Open Browser  https://robotframework.org/  chrome
 
-** Test Cases **
+*** Test Cases ***
 Cenário 1: Acessando o site do Robot
     Abrir Site

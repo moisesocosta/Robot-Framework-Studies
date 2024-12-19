@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-12-19T09:35:06.408493" rpa="false" schemaversion="5">
+<suite id="s1" name="Estrutura" source="C:\Users\mosol\OneDrive\Documentos\GitHub\Robot-Framework-Studies\Robot-Framework\Aula03\estrutura.robot">
+<test id="s1-t1" name="Cenário 1: Teste de abrir site google" line="20">
+<kw name="Abrir site google">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-12-19T09:35:07.446873" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com.br/'.</msg>
+<arg>https://www.google.com.br/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-12-19T09:35:07.446345" elapsed="6.073176"/>
+</kw>
+<status status="PASS" start="2024-12-19T09:35:07.444671" elapsed="6.075543"/>
+</kw>
+<kw name="Fechar navegador">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-12-19T09:35:13.522562" elapsed="2.856381"/>
+</kw>
+<status status="PASS" start="2024-12-19T09:35:13.521402" elapsed="2.858018"/>
+</kw>
+<status status="PASS" start="2024-12-19T09:35:07.442959" elapsed="8.937434"/>
+</test>
+<test id="s1-t2" name="Cenário 2: Teste de abrir site globo" line="24">
+<kw name="Abrir site globo">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-12-19T09:35:16.389586" level="INFO">Opening browser 'chrome' to base url 'https://www.globo.com/'.</msg>
+<arg>https://www.globo.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-12-19T09:35:16.388925" elapsed="23.254932"/>
+</kw>
+<status status="PASS" start="2024-12-19T09:35:16.387789" elapsed="23.256527"/>
+</kw>
+<kw name="Fechar navegador">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-12-19T09:35:39.646349" elapsed="2.709966"/>
+</kw>
+<status status="PASS" start="2024-12-19T09:35:39.645300" elapsed="2.711366"/>
+</kw>
+<status status="PASS" start="2024-12-19T09:35:16.385805" elapsed="25.971581"/>
+</test>
+<status status="PASS" start="2024-12-19T09:35:06.412067" elapsed="35.948245"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Estrutura">Estrutura</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
