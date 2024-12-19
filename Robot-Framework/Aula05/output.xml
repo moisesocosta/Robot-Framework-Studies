@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-12-19T15:09:46.390735" rpa="false" schemaversion="5">
+<suite id="s1" name="Bdd" source="C:\Users\mosol\OneDrive\Documentos\GitHub\Robot-Framework-Studies\Robot-Framework\Aula05\bdd.robot">
+<test id="s1-t1" name="Cenário 1: Executar vídeo no site do Youtube" line="39">
+<kw name="Dado que eu acesso o site do Youtube">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-12-19T15:09:47.313051" level="INFO">Opening browser 'chrome' to base url 'https://www.youtube.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-12-19T15:09:47.312472" elapsed="14.192310"/>
+</kw>
+<status status="PASS" start="2024-12-19T15:09:47.310809" elapsed="14.194727"/>
+</kw>
+<kw name="Quando digito o nome da musica">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-12-19T15:10:01.512802" level="INFO">Typing text 'Ariana Grande Positions' into text field '//input[@id="search"]'.</msg>
+<msg time="2024-12-19T15:10:02.683854" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-12-19T15:10:02.684517" level="FAIL">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=131.0.6778.204)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C88DFB05+28789]
+	(No symbol) [0x00007FF6C88486E0]
+	(No symbol) [0x00007FF6C86E5759]
+	(No symbol) [0x00007FF6C872EBD5]
+	(No symbol) [0x00007FF6C875F43A]
+	(No symbol) [0x00007FF6C872C5B6]
+	(No symbol) [0x00007FF6C875F650]
+	(No symbol) [0x00007FF6C877F654]
+	(No symbol) [0x00007FF6C875F1E3]
+	(No symbol) [0x00007FF6C872A938]
+	(No symbol) [0x00007FF6C872BAA1]
+	GetHandleVerifier [0x00007FF6C8C1933D+3410093]
+	GetHandleVerifier [0x00007FF6C8C2E7DD+3497293]
+	GetHandleVerifier [0x00007FF6C8C22A73+3448803]
+	GetHandleVerifier [0x00007FF6C89A7BBB+848171]
+	(No symbol) [0x00007FF6C8853C3F]
+	(No symbol) [0x00007FF6C884F6E4]
+	(No symbol) [0x00007FF6C884F87D]
+	(No symbol) [0x00007FF6C883ED49]
+	BaseThreadInitThunk [0x00007FFDAF01E8D7+23]
+	RtlUserThreadStart [0x00007FFDB057FBCC+44]
+</msg>
+<arg>${Input_pesquisa}</arg>
+<arg>${NomeDaMusica}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2024-12-19T15:10:01.510881" elapsed="1.185533">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=131.0.6778.204)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C88DFB05+28789]
+	(No symbol) [0x00007FF6C88486E0]
+	(No symbol) [0x00007FF6C86E5759]
+	(No symbol) [0x00007FF6C872EBD5]
+	(No symbol) [0x00007FF6C875F43A]
+	(No symbol) [0x00007FF6C872C5B6]
+	(No symbol) [0x00007FF6C875F650]
+	(No symbol) [0x00007FF6C877F654]
+	(No symbol) [0x00007FF6C875F1E3]
+	(No symbol) [0x00007FF6C872A938]
+	(No symbol) [0x00007FF6C872BAA1]
+	GetHandleVerifier [0x00007FF6C8C1933D+3410093]
+	GetHandleVerifier [0x00007FF6C8C2E7DD+3497293]
+	GetHandleVerifier [0x00007FF6C8C22A73+3448803]
+	GetHandleVerifier [0x00007FF6C89A7BBB+848171]
+	(No symbol) [0x00007FF6C8853C3F]
+	(No symbol) [0x00007FF6C884F6E4]
+	(No symbol) [0x00007FF6C884F87D]
+	(No symbol) [0x00007FF6C883ED49]
+	BaseThreadInitThunk [0x00007FFDAF01E8D7+23]
+	RtlUserThreadStart [0x00007FFDB057FBCC+44]
+</status>
+</kw>
+<status status="FAIL" start="2024-12-19T15:10:01.509028" elapsed="1.188202">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=131.0.6778.204)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C88DFB05+28789]
+	(No symbol) [0x00007FF6C88486E0]
+	(No symbol) [0x00007FF6C86E5759]
+	(No symbol) [0x00007FF6C872EBD5]
+	(No symbol) [0x00007FF6C875F43A]
+	(No symbol) [0x00007FF6C872C5B6]
+	(No symbol) [0x00007FF6C875F650]
+	(No symbol) [0x00007FF6C877F654]
+	(No symbol) [0x00007FF6C875F1E3]
+	(No symbol) [0x00007FF6C872A938]
+	(No symbol) [0x00007FF6C872BAA1]
+	GetHandleVerifier [0x00007FF6C8C1933D+3410093]
+	GetHandleVerifier [0x00007FF6C8C2E7DD+3497293]
+	GetHandleVerifier [0x00007FF6C8C22A73+3448803]
+	GetHandleVerifier [0x00007FF6C89A7BBB+848171]
+	(No symbol) [0x00007FF6C8853C3F]
+	(No symbol) [0x00007FF6C884F6E4]
+	(No symbol) [0x00007FF6C884F87D]
+	(No symbol) [0x00007FF6C883ED49]
+	BaseThreadInitThunk [0x00007FFDAF01E8D7+23]
+	RtlUserThreadStart [0x00007FFDB057FBCC+44]
+</status>
+</kw>
+<kw name="E clico no botão buscar">
+<status status="NOT RUN" start="2024-12-19T15:10:02.698684" elapsed="0.000174"/>
+</kw>
+<kw name="E clico na primeira opção na linha">
+<status status="NOT RUN" start="2024-12-19T15:10:02.700174" elapsed="0.000161"/>
+</kw>
+<kw name="Então o vídeo é executado">
+<status status="NOT RUN" start="2024-12-19T15:10:02.701288" elapsed="0.000146"/>
+</kw>
+<status status="FAIL" start="2024-12-19T15:09:47.308853" elapsed="15.393588">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=131.0.6778.204)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C88DFB05+28789]
+	(No symbol) [0x00007FF6C88486E0]
+	(No symbol) [0x00007FF6C86E5759]
+	(No symbol) [0x00007FF6C872EBD5]
+	(No symbol) [0x00007FF6C875F43A]
+	(No symbol) [0x00007FF6C872C5B6]
+	(No symbol) [0x00007FF6C875F650]
+	(No symbol) [0x00007FF6C877F654]
+	(No symbol) [0x00007FF6C875F1E3]
+	(No symbol) [0x00007FF6C872A938]
+	(No symbol) [0x00007FF6C872BAA1]
+	GetHandleVerifier [0x00007FF6C8C1933D+3410093]
+	GetHandleVerifier [0x00007FF6C8C2E7DD+3497293]
+	GetHandleVerifier [0x00007FF6C8C22A73+3448803]
+	GetHandleVerifier [0x00007FF6C89A7BBB+848171]
+	(No symbol) [0x00007FF6C8853C3F]
+	(No symbol) [0x00007FF6C884F6E4]
+	(No symbol) [0x00007FF6C884F87D]
+	(No symbol) [0x00007FF6C883ED49]
+	BaseThreadInitThunk [0x00007FFDAF01E8D7+23]
+	RtlUserThreadStart [0x00007FFDB057FBCC+44]
+</status>
+</test>
+<status status="FAIL" start="2024-12-19T15:09:46.394050" elapsed="16.314655"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Bdd">Bdd</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
