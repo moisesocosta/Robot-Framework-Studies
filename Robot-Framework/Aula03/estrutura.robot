@@ -18,6 +18,7 @@ Fechar navegador
 
 *** Test Cases ***
 Cenário 1: Teste de abrir site google
+  [Tags] Regressivo
   Abrir site google
   Fechar navegador
 

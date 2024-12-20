@@ -37,6 +37,7 @@ Então o vídeo é executado
 
 *** Test Cases ***
 Cenário 1: Executar vídeo no site do Youtube
+  [Tags] Regressivo
   Dado que eu acesso o site do Youtube
   Quando digito o nome da musica
   E clico no botão buscar
